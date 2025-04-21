@@ -34,7 +34,7 @@ jobs:
         working-directory: ./  # Ensure this is the correct directory where buildozer.spec is located
 
       - name: Upload APK as artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: apk
           path: bin/*.apk
